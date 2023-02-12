@@ -5,9 +5,9 @@ Extract text blocks from a PDF document with each paragraph as a separate line a
 The solution should be a general solution that can work on different pages of different PDFs.
 
 # Resources & Hints
-*PyMuPDF – PDF Parsing library
-*Identify columns by looking at the x coordinates difference
-*OpenCV can be used to combine lines using contours
+* PyMuPDF – PDF Parsing library
+* Identify columns by looking at the x coordinates difference
+* OpenCV can be used to combine lines using contours
 
 # PDF File
 http://www.kepcorp.com/annualreport2018/pdf/keppel-corporation-limited-annual-report-2018.pdf
