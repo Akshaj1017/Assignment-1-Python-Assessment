@@ -13,7 +13,8 @@ The solution should be a general solution that can work on different pages of di
 http://www.kepcorp.com/annualreport2018/pdf/keppel-corporation-limited-annual-report-2018.pdf
 
 # Libraries Used
-* PyPDF2 
+* ##  PyPDF2 
+  
   It is a library in Python used to work with PDF files. It can be used for various purposes such as:
 
   * Merging multiple PDF files into one file.
@@ -26,5 +27,6 @@ http://www.kepcorp.com/annualreport2018/pdf/keppel-corporation-limited-annual-re
 
   In short, PyPDF2 can be used to perform various operations on PDF files, making it a versatile tool for working with PDFs in Python.
 
-* Pandas
+*  ## Pandas
+
   Help convert the output text to a dafaframe so it can be converted to an Excel file.
