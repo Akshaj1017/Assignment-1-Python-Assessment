@@ -4,8 +4,11 @@ import pandas as pd
 # Open the PDF file
 File = PyPDF2.PdfFileReader(open("keppel-corporation-limited-annual-report-2018.pdf", "rb"))
 
-# Getting the specified page(here its page 12)
-Page_Number = File.getPage(11)
+#Page number Entered by user
+Page_No = int(input("Enter the page number: "))
+
+# Get the specified page
+Page_Number = File.getPage(Page_No)
 
 # Extract the text from the Specified page
 Text = Page_Number.extractText()
